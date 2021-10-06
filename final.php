@@ -170,7 +170,7 @@
 		include 'connect.php';?>*/
 		<?php
 
-		$conn = mysqli_connect("demo01.cqowh5zkeqdq.us-east-2.rds.amazonaws.com", "admin", "12345678", "demo01");
+		$conn = mysqli_connect("database-demo01.cqowh5zkeqdq.us-east-2.rds.amazonaws.com", "admin", "12345678", "demo01");
 		
 		// Check connection
 		if($conn === false){
